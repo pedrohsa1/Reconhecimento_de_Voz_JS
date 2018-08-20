@@ -52,7 +52,6 @@ window.addEventListener('DOMContentLoaded', function(){
           // Escrevo o resultado no campo da textarea
          document.getElementById('campo_texto').innerHTML = resultado;
       }
-
     };
     // Capturamos a ação do click no botão e iniciamos a gravação ou a paramos
     // dependendo da variavel de controle esta_gravando
@@ -67,11 +66,9 @@ window.addEventListener('DOMContentLoaded', function(){
       // Caso não esteja capturando o audio inicio a transcrição
       recebe_audio.start();
     }, false);
-
   }else{
     // Caso não o navegador não apresente suporte ao Speech API apresentamos a seguinte mensagem
     console.log('navegador não apresenta suporte a web speech api');
     // alert('Este navegador não apresenta suporte para essa funcionalidade ainda');
   }
-
 }, false);
