@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', function(){
       if(esta_gravando){
         // Se estiver gravando mando parar a gravação
         recebe_audio.stop();
-        // Dou um retun para sair da função
+        // Faz um retun para sair da função
         return;
       }
       // Caso não esteja capturando o audio inicio a transcrição
